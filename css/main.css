@@ -1,0 +1,32 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    background: #e9ecef;
+}
+
+.container-imagem {
+    background: #fff;
+    width: 39%;
+    margin: 10px 5%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.container-imagem__title {
+    padding: 10px;
+    margin: auto;
+}
+
+.container-imagem__imagem {
+    width: 100%;
+    max-height: 359px;
+    cursor: pointer;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.container-imagem__label {
+    font-size: 2em;
+    padding: 10px;
+}
